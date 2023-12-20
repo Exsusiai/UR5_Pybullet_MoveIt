@@ -1,0 +1,42 @@
+joint1_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: shoulder_pan_joint
+
+joint2_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: shoulder_lift_joint
+
+joint3_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: elbow_joint
+
+joint4_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: wrist_1_joint
+
+joint5_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: wrist_2_joint
+
+joint6_position_controller:
+  type: "position_controllers/JointPositionController"
+  joint: wrist_3_joint
+
+
+# joint_position_controller:
+#   type: position_controllers/JointPositionController
+#   joints:
+#     - shoulder_pan_joint
+#     - shoulder_lift_joint
+#     - elbow_joint
+#     - wrist_1_joint
+#     - wrist_2_joint
+#     - wrist_3_joint
+#     # Add all your joints here
+#   gains:
+#     shoulder_pan_joint: {p: 100, d: 10, i: 1, i_clamp: 1}
+#     shoulder_lift_joint: {p: 100, d: 10, i: 1, i_clamp: 1}
+#     elbow_joint: {p: 100, d: 10, i: 1, i_clamp: 1}
+#     wrist_1_joint: {p: 100, d: 10, i: 1, i_clamp: 1}
+#     wrist_2_joint: {p: 100, d: 10, i: 1, i_clamp: 1}
+#     wrist_3_joint: {p: 100, d: 10, i: 1, i_clamp: 1}

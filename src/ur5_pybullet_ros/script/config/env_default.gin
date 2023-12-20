@@ -1,0 +1,3 @@
+Environment.setRealTimeSimulation = 0
+Environment.dt = 0.005
+Environment.realtime_factor = 1.0

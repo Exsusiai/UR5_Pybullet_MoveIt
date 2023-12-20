@@ -1,0 +1,30 @@
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled C++ files
+*.so
+*.out
+*.o
+*.a
+
+# Build and devel folders
+build/
+devel/
+
+# ROS build folder
+build_isolated/
+
+# ROS logs
+logs/
+
+# Generated documentation
+doc/
+
+# Catkin generated files
+catkin_generated/
+
+.vscode/
+__pycache__/
+
