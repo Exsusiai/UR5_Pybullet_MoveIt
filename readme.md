@@ -1,4 +1,7 @@
-# Pybullet UR5 with TF
+# UR5_Pybullet_MoveIt 
+## Introduction
+A UR5 robotic arm project, simulated in Pybullet, and implemented communication between Pybullet and ROS MoveIt, and implemented robotic arm planning through MoveIt.
+
 ## Dependencies
 ### pybullet
 ```sh
